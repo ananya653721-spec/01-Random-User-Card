@@ -1,0 +1,68 @@
+
+ *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+}
+
+/* Main Card */
+.card {
+    width: 350px;
+    padding: 30px;
+    text-align: center;
+    background: white;
+    border-radius: 20px;
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+}
+
+/* User Image */
+.card img {
+    width: 130px;
+    height: 130px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #667eea;
+    margin-bottom: 18px;
+}
+
+/* Name */
+.card h2 {
+    font-size: 26px;
+    color: #222;
+    margin-bottom: 15px;
+}
+
+/* User Information */
+.card p {
+    font-size: 15px;
+    color: #666;
+    margin: 8px 0;
+}
+
+/* Button */
+.card button {
+    margin-top: 20px;
+    padding: 12px 22px;
+    border: none;
+    border-radius: 10px;
+    background: #667eea;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.card button:hover {
+    background: #5568d9;
+    transform: translateY(-2px);
+}
